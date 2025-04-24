@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.customcolor{
+    background-color: #28A745;
+}
+.anterior{
+    color: #707070;
+    font-size: 16px;
+ 
+}
+.oferta{
+    color: #28A745;
+    font-size: 20px;
+    font-weight: 500;
+}
+.boton{
+    background-color: #F8F9FA;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+.letracard{
+    font-family: Roboto;
+    font-weight: 300;
+    
+}
+.letrabody{
+    font-size: 20px;
+}
+.letranegocio{
+    font-size: 16px;
+}
+.letradireccion{
+    font-size: 13px;
+}
