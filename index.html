@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>CUPPON Tu tienda de descuentos</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/img/logo-white.png" type="img/png">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md  customcolor text-light ">
+            <!--Contenedor responsivo-->
+            <div class="container-fluid customcolor">
+              <!-- imagen del logo -->
+              <a class="navbar-brand " href="#"> 
+                <img src="./assets/img/logo-white.png" alt="CUPPON" height="30rem">
+              </a>
+              <!-- Botón generado cuando navbar colapsa por tamaño de pantalla -->
+              <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-light bs-light ms-auto"></span>
+              </button>
+              <!-- Lista de navbar que es llamada por el boton cuando la pantalla disminuye su tamaño-->
+              <div class="collapse navbar-collapse text-light" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mb-2 mb-md-0 text-light ms-auto px-5 ">
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#cupones">Cupones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#correo">Contacto</a>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <section>
+        <h1 id="cupones" class="text-center pt-5 d-none d-md-block"><strong>Cupones disponibles</strong></h1>
+        <div class="container py-5 mx-auto">
+            <div class="row g-5 mx-auto ps-5">
+                
+                <!-- card 1 -->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/img/cupon-1.jpg" class="card-img-top" alt="Plumon Coral">
+                        <div class="card-body letracard">
+                          <p class="card-text letrabody">Plumón Coral Fleece estampado en modelo y tamaño a elección</p>
+                          <div class="card-body text-body-secondary">
+                            <p class="letranegocio">Plumones Manolino</p>
+                            <p class="letradireccion">    
+                                <svg viewBox="0 0 24 24" width="15px" xmlns="http://www.w3.org/2000/svg" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#808080" fill-rule="evenodd" d="M11.291 21.706 12 21l-.709.706zM12 21l.708.706a1 1 0 0 1-1.417 0l-.006-.007-.017-.017-.062-.063a47.708 47.708 0 0 1-1.04-1.106 49.562 49.562 0 0 1-2.456-2.908c-.892-1.15-1.804-2.45-2.497-3.734C4.535 12.612 4 11.248 4 10c0-4.539 3.592-8 8-8 4.408 0 8 3.461 8 8 0 1.248-.535 2.612-1.213 3.87-.693 1.286-1.604 2.585-2.497 3.735a49.583 49.583 0 0 1-3.496 4.014l-.062.063-.017.017-.006.006L12 21zm0-8a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" clip-rule="evenodd"></path></g>
+                                </svg>9191 Av. Vitacura, Chile
+                            </p>
+                          </div>
+                        </div>
+                        <div class="text-body-secondary container-fluid  justify-content-end ">
+                            <div class="row justify-content-end border-top pt-3 d-flex">
+                                <p class="col-4 anterior pt-1">$45.990</p>
+                                <p class="col-5 oferta"><strong>$22.990 </strong></p>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+                       
+                
+                <!-- card 2 -->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/img/cupon-2.jpg" class="card-img-top" alt="Platos de fondo">
+                        <div class="card-body letracard">
+                          <p class="card-text letrabody">Entradas para compartir + platos de fondo + postres + bebestibles</p>
+                          <div class="card-body text-body-secondary">
+                            <p class="letranegocio">V for Vegan</p>
+                            <p class="letradireccion">    
+                                <svg viewBox="0 0 24 24" width="15px" xmlns="http://www.w3.org/2000/svg" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#808080" fill-rule="evenodd" d="M11.291 21.706 12 21l-.709.706zM12 21l.708.706a1 1 0 0 1-1.417 0l-.006-.007-.017-.017-.062-.063a47.708 47.708 0 0 1-1.04-1.106 49.562 49.562 0 0 1-2.456-2.908c-.892-1.15-1.804-2.45-2.497-3.734C4.535 12.612 4 11.248 4 10c0-4.539 3.592-8 8-8 4.408 0 8 3.461 8 8 0 1.248-.535 2.612-1.213 3.87-.693 1.286-1.604 2.585-2.497 3.735a49.583 49.583 0 0 1-3.496 4.014l-.062.063-.017.017-.006.006L12 21zm0-8a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" clip-rule="evenodd"></path></g>
+                                </svg>777 Jesse Pinkman, Chile
+                            </p>
+                          </div>
+                        </div>
+                        <div class="text-body-secondary container-fluid  justify-content-end ">
+                            <div class="row justify-content-end border-top pt-3 d-flex">
+                                <p class="col-4 anterior pt-1">$30.990</p>
+                                <p class="col-5 oferta"><strong>$12.990 </strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+                
+                <!-- card 3 -->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/img/cupon-3.jpg" class="card-img-top" alt="Evaluacion integral dental">
+                        <div class="card-body letracard">
+                          <p class="card-text letrabody">Evaluación integral + blanquiamiento dental led + limpieza + fluoración</p>
+                          <div class="card-body text-body-secondary">
+                            <p class="letranegocio">Clínica Dental Quijada</p>
+                            <p class="letradireccion">    
+                                <svg viewBox="0 0 24 24" width="15px" xmlns="http://www.w3.org/2000/svg" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#808080" fill-rule="evenodd" d="M11.291 21.706 12 21l-.709.706zM12 21l.708.706a1 1 0 0 1-1.417 0l-.006-.007-.017-.017-.062-.063a47.708 47.708 0 0 1-1.04-1.106 49.562 49.562 0 0 1-2.456-2.908c-.892-1.15-1.804-2.45-2.497-3.734C4.535 12.612 4 11.248 4 10c0-4.539 3.592-8 8-8 4.408 0 8 3.461 8 8 0 1.248-.535 2.612-1.213 3.87-.693 1.286-1.604 2.585-2.497 3.735a49.583 49.583 0 0 1-3.496 4.014l-.062.063-.017.017-.006.006L12 21zm0-8a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" clip-rule="evenodd"></path></g>
+                                </svg>1342, Blanco Encalada, Chile
+                            </p>
+                          </div>
+                        </div>
+                        <div class="text-body-secondary container-fluid  justify-content-end ">
+                            <div class="row justify-content-end border-top pt-3 d-flex">
+                                <p class="col-4 anterior pt-1">$300.000</p>
+                                <p class="col-5 oferta"><strong>$25.990 </strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+                
+                <!-- card 4 -->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/img/cupon-4.jpg" class="card-img-top" alt="Colacion 2 personas">
+                        <div class="card-body letracard">
+                          <p class="card-text letrabody">Colación 2 personas + postre (no incluye bebidas)</p>
+                          <div class="card-body text-body-secondary">
+                            <p class="letranegocio">Suricata almacen</p>
+                            <p class="letradireccion">    
+                                <svg viewBox="0 0 24 24" width="15px" xmlns="http://www.w3.org/2000/svg" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#808080" fill-rule="evenodd" d="M11.291 21.706 12 21l-.709.706zM12 21l.708.706a1 1 0 0 1-1.417 0l-.006-.007-.017-.017-.062-.063a47.708 47.708 0 0 1-1.04-1.106 49.562 49.562 0 0 1-2.456-2.908c-.892-1.15-1.804-2.45-2.497-3.734C4.535 12.612 4 11.248 4 10c0-4.539 3.592-8 8-8 4.408 0 8 3.461 8 8 0 1.248-.535 2.612-1.213 3.87-.693 1.286-1.604 2.585-2.497 3.735a49.583 49.583 0 0 1-3.496 4.014l-.062.063-.017.017-.006.006L12 21zm0-8a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" clip-rule="evenodd"></path></g>
+                                </svg>1071 Miguel Claro, Chile
+                            </p>
+                          </div>
+                        </div>
+                        <div class="text-body-secondary container-fluid  justify-content-end ">
+                            <div class="row justify-content-end border-top pt-3 d-flex">
+                                <p class="col-4 anterior pt-1">$4.200</p>
+                                <p class="col-5 oferta"><strong>$2.100 </strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+                
+                <!-- card 5 -->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/img/cupon-5.jpg" class="card-img-top" alt="Ticket para stukid">
+                        <div class="card-body letracard">
+                          <p class="card-text letrabody">1, 2 o 4 tickets para Stukids. Elige sucursal</p>
+                          <div class="card-body text-body-secondary">
+                            <p class="letranegocio">Stukids Centro de Eventos</p>
+                            <p class="letradireccion">    
+                                <svg viewBox="0 0 24 24" width="15px" xmlns="http://www.w3.org/2000/svg" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#808080" fill-rule="evenodd" d="M11.291 21.706 12 21l-.709.706zM12 21l.708.706a1 1 0 0 1-1.417 0l-.006-.007-.017-.017-.062-.063a47.708 47.708 0 0 1-1.04-1.106 49.562 49.562 0 0 1-2.456-2.908c-.892-1.15-1.804-2.45-2.497-3.734C4.535 12.612 4 11.248 4 10c0-4.539 3.592-8 8-8 4.408 0 8 3.461 8 8 0 1.248-.535 2.612-1.213 3.87-.693 1.286-1.604 2.585-2.497 3.735a49.583 49.583 0 0 1-3.496 4.014l-.062.063-.017.017-.006.006L12 21zm0-8a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" clip-rule="evenodd"></path></g>
+                                </svg>133 El Tranque, Chile
+                            </p>
+                          </div>
+                        </div>
+                        <div class="text-body-secondary container-fluid  justify-content-end ">
+                            <div class="row justify-content-end border-top pt-3 d-flex">
+                                <p class="col-4 anterior pt-1">$4.000</p>
+                                <p class="col-5 oferta"><strong>$2.500 </strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+                
+                <!-- card 6 -->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/img/cupon-6.jpg" class="card-img-top" alt="Alojamiento San Pedro de Atacama">
+                        <div class="card-body letracard">
+                          <p class="card-text letrabody">San Pedro de Atacama: 1 o 2 noches en alojamiento a elección</p>
+                          <div class="card-body text-body-secondary">
+                            <p class="letranegocio">D-Latam Travel</p>
+                           
+                          </div>
+                        </div>
+                        <div class="text-body-secondary container-fluid  justify-content-end ">
+                            <div class="row justify-content-end border-top pt-3 d-flex">
+                                <p class="col-4 anterior pt-1">$80.200</p>
+                                <p class="col-5 oferta"><strong>$44.100 </strong></p>
+                            </div>
+                        </div>
+                       
+                      </div>
+                </div>
+
+                
+
+            </div>
+        </div>
+        
+
+    </section>
+
+    <section id="correo" class="customcolor">
+        <div class="container g-3">
+            <h3 class="text-light text-center pt-5"><strong>Recibe cupones en tu correo</strong></h3>
+            <input class="form-control form-control-lg my-3" type="text" placeholder="Nombre" aria-label=".form-control-lg">
+            <input class="form-control form-control-lg my-3" type="text" placeholder="Correo" aria-label=".form-control-lg">
+            <div class="p-4 d-flex justify-content-center">
+                <button type="button" class="btn btn-secondary boton text-dark" >Enviar</button>
+            </div>
+            
+
+        </div>
+
+    </section>
+    
+    <footer class="container g-3">
+        <div class="row justify-content-center pt-3">
+            <img class="col-md-1 col-3" src="./assets/img/logo-black.png" alt="CUPPON" height="30rem">
+            <p class="col-12 col-md-6">&copy; 2018 Cuppon Latam. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!--<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#808080" fill-rule="evenodd" d="M11.291 21.706 12 21l-.709.706zM12 21l.708.706a1 1 0 0 1-1.417 0l-.006-.007-.017-.017-.062-.063a47.708 47.708 0 0 1-1.04-1.106 49.562 49.562 0 0 1-2.456-2.908c-.892-1.15-1.804-2.45-2.497-3.734C4.535 12.612 4 11.248 4 10c0-4.539 3.592-8 8-8 4.408 0 8 3.461 8 8 0 1.248-.535 2.612-1.213 3.87-.693 1.286-1.604 2.585-2.497 3.735a49.583 49.583 0 0 1-3.496 4.014l-.062.063-.017.017-.006.006L12 21zm0-8a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" clip-rule="evenodd"></path></g></svg>-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+</body>
+</html>
